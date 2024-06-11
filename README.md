@@ -139,12 +139,12 @@ If you want to reach out to me about anything, be it some doubt or just to hango
 
 2. **Download heliactyl files in /var/www/heliactyl**:
 
-- `git clone https://github.com/OvernodeProjets/Fixed-Heliactyl.git /var/www/heliactyl`
+- `git clone https://github.com/ImRevoltexee/Pterodactyl-DashPanel.git /var/www/Pterodactyl-DashPanel`
 
 3. **Installing required node modules (and build dependencies to avoid errors)**:
 
 - `apt-get update && apt-get install libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev build-essential`
-- `cd /var/www/heliactyl && npm i`
+- `cd /var/www/Pterodactyl-DashPanel && npm i`
 
 After configuring settings.json, to start the server, use `node index.js`</br>
 To run in the background, use PM2 (see PM2 section)</br>
